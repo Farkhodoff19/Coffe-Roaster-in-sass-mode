@@ -1,0 +1,25 @@
+.footer {
+  background-color: #f3d7b7;
+
+    &__logo-wrapper {
+      padding: 68px;
+    }
+
+    &__logo:hover {
+      opacity: 0.6;
+    }
+
+    &__inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    &__link {
+      padding-right: 30px;
+      text-decoration: none;
+    }
+    &__link:hover {
+      opacity: 0.7;
+    }
+}

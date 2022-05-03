@@ -1,0 +1,14 @@
+.header {
+  background: #f3d7b7;
+  &__logo {
+    padding: 40px 50px;
+  }
+  &__logo a:hover {
+    opacity: 0.6;
+  }
+}
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

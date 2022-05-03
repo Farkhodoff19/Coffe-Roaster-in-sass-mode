@@ -1,0 +1,17 @@
+.relative {
+  position: relative;
+}
+
+.sticker {
+  position: absolute;
+  width: 203px;
+  height: 152.1px;
+  left: 1101.84px;
+  top: -216px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/sticker-how-it-works.png);
+}
+.sticker:hover {
+  opacity: 0.6;
+}

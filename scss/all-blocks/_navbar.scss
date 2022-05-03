@@ -1,0 +1,30 @@
+.sitenav__list {
+  display: flex;
+  align-items: center;
+}
+
+.sitenav__item {
+  margin: 0 40px;
+  display: block;
+  list-style: none;
+}
+
+.sitenav__link {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333333;
+  list-style: none;
+}
+
+.sitenav__link:hover {
+  transition: all 0.3s ease;
+  border-bottom: 1px #0a775f solid;
+  color: #0a775f;
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
+}
